@@ -1,1 +1,1 @@
-## Sample Lintree with css and html
+## Sample Lintree with CSS and HTML
