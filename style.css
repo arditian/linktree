@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Source Code Pro', monospace;
+}
+
 .container {
     max-width: 500px;
     margin: 0 auto;
@@ -22,6 +26,51 @@
     padding: 30px;
 }
 
+.profile > img {
+    width: 120 px;
+    height: 120 px;
+    border-radius: 100%;
+}
+
+.profile > p {
+    font-size: 1.7em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.link > a {
+    text-decoration: none;
+    color: #222;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid #222;
+    background-color: #eaeaea;
+    border-radius: 7px;
+    margin: 3px 3px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.link > a.hover {
+    background-color: azure;
+}
+
 .footer {
     text-align: center;
+}
+
+.footer > i {
+    color: white;
+    font-size: 20px;
 }
